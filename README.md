@@ -2,7 +2,7 @@
 
 **AI Hallucination Prevention Through Biomimetic Dissonance-Based Inhibition**
 
-[![arXiv](https://img.shields.io/badge/arXiv-PENDING-b31b1b.svg)](https://arxiv.org)
+[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.18450340-blue.svg)](https://doi.org/10.5281/zenodo.18450340)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 
