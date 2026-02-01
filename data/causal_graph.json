@@ -1,0 +1,333 @@
+{
+  "semantic": {
+    "directed": true,
+    "multigraph": false,
+    "graph": {},
+    "nodes": [
+      {
+        "node_type": "company",
+        "country": "Germany",
+        "location": "Dassel",
+        "founded": 1584,
+        "industry": "fine_art_paper",
+        "certifications": [
+          "FineArt",
+          "Digigraphie"
+        ],
+        "id": "Hahnemühle"
+      },
+      {
+        "node_type": "paper",
+        "name": "FineArt Baryta",
+        "weight": "325gsm",
+        "finish": "glossy",
+        "base": "alpha_cellulose",
+        "id": "Hahnemühle_FineArt_Baryta"
+      },
+      {
+        "node_type": "paper",
+        "name": "Photo Rag",
+        "weight": "308gsm",
+        "finish": "matte",
+        "base": "cotton",
+        "id": "Hahnemühle_Photo_Rag"
+      },
+      {
+        "node_type": "paper",
+        "name": "Bamboo",
+        "weight": "290gsm",
+        "finish": "natural_white",
+        "base": "bamboo_90_cotton_10",
+        "id": "Hahnemühle_Bamboo"
+      },
+      {
+        "node_type": "paper",
+        "name": "German Etching",
+        "weight": "310gsm",
+        "finish": "textured",
+        "base": "alpha_cellulose",
+        "id": "Hahnemühle_German_Etching"
+      },
+      {
+        "node_type": "paper",
+        "name": "Museum Etching",
+        "weight": "350gsm",
+        "finish": "textured",
+        "base": "cotton",
+        "id": "Hahnemühle_Museum_Etching"
+      },
+      {
+        "node_type": "company",
+        "country": "France",
+        "founded": 1557,
+        "industry": "fine_art_paper",
+        "id": "Canson"
+      },
+      {
+        "node_type": "paper",
+        "name": "Infinity Baryta",
+        "weight": "315gsm",
+        "finish": "glossy",
+        "id": "Canson_Infinity_Baryta"
+      },
+      {
+        "node_type": "paper",
+        "name": "Platine Fibre Rag",
+        "weight": "310gsm",
+        "finish": "satin",
+        "id": "Canson_Platine_Fibre_Rag"
+      },
+      {
+        "node_type": "paper",
+        "name": "Rag Photographique",
+        "weight": "210gsm",
+        "finish": "matte",
+        "id": "Canson_Rag_Photographique"
+      },
+      {
+        "node_type": "company",
+        "country": "Japan",
+        "location": "Tokushima",
+        "founded": 1907,
+        "industry": "fine_art_paper",
+        "specialty": "washi",
+        "id": "Awagami"
+      },
+      {
+        "node_type": "paper",
+        "name": "Kozo",
+        "weight": "110gsm",
+        "finish": "natural",
+        "base": "mulberry",
+        "id": "Awagami_Kozo"
+      },
+      {
+        "node_type": "paper",
+        "name": "Bamboo",
+        "weight": "170gsm",
+        "finish": "natural",
+        "base": "bamboo",
+        "id": "Awagami_Bamboo"
+      },
+      {
+        "node_type": "paper",
+        "name": "Unryu",
+        "weight": "37gsm",
+        "finish": "translucent",
+        "base": "kozo_fibers",
+        "id": "Awagami_Unryu"
+      },
+      {
+        "node_type": "business",
+        "owner": "Marc Hesse",
+        "location": "Potsdam, Germany",
+        "founded": 2005,
+        "services": [
+          "fine_art_printing",
+          "color_management",
+          "framing"
+        ],
+        "certifications": [
+          "Hahnemühle_Certified_Studio",
+          "Canson_Certified_Print_Lab",
+          "Epson_Digigraphie"
+        ],
+        "id": "Marc_Hesse_FineArt"
+      },
+      {
+        "node_type": "country",
+        "continent": "Europe",
+        "capital": "Berlin",
+        "id": "Germany"
+      },
+      {
+        "node_type": "country",
+        "continent": "Asia",
+        "capital": "Tokyo",
+        "id": "Japan"
+      },
+      {
+        "node_type": "country",
+        "continent": "Europe",
+        "capital": "Paris",
+        "id": "France"
+      },
+      {
+        "node_type": "concept",
+        "domain": "art",
+        "technology": "inkjet",
+        "id": "Fine_Art_Printing"
+      },
+      {
+        "node_type": "concept",
+        "domain": "technology",
+        "purpose": "accuracy",
+        "id": "Color_Management"
+      },
+      {
+        "node_type": "concept",
+        "material_type": "natural",
+        "sustainability": "high",
+        "id": "Bamboo_Fiber"
+      },
+      {
+        "node_type": "concept",
+        "material_type": "natural",
+        "archival": "high",
+        "id": "Cotton_Fiber"
+      }
+    ],
+    "edges": [
+      {
+        "relation": "manufactures",
+        "confidence": 1.0,
+        "source": "Hahnemühle",
+        "target": "Hahnemühle_FineArt_Baryta"
+      },
+      {
+        "relation": "manufactures",
+        "confidence": 1.0,
+        "source": "Hahnemühle",
+        "target": "Hahnemühle_Photo_Rag"
+      },
+      {
+        "relation": "manufactures",
+        "confidence": 1.0,
+        "source": "Hahnemühle",
+        "target": "Hahnemühle_Bamboo"
+      },
+      {
+        "relation": "manufactures",
+        "confidence": 1.0,
+        "source": "Hahnemühle",
+        "target": "Hahnemühle_German_Etching"
+      },
+      {
+        "relation": "manufactures",
+        "confidence": 1.0,
+        "source": "Hahnemühle",
+        "target": "Hahnemühle_Museum_Etching"
+      },
+      {
+        "relation": "manufactures",
+        "confidence": 1.0,
+        "source": "Canson",
+        "target": "Canson_Infinity_Baryta"
+      },
+      {
+        "relation": "manufactures",
+        "confidence": 1.0,
+        "source": "Canson",
+        "target": "Canson_Platine_Fibre_Rag"
+      },
+      {
+        "relation": "manufactures",
+        "confidence": 1.0,
+        "source": "Canson",
+        "target": "Canson_Rag_Photographique"
+      },
+      {
+        "relation": "manufactures",
+        "confidence": 1.0,
+        "source": "Awagami",
+        "target": "Awagami_Kozo"
+      },
+      {
+        "relation": "manufactures",
+        "confidence": 1.0,
+        "source": "Awagami",
+        "target": "Awagami_Bamboo"
+      },
+      {
+        "relation": "manufactures",
+        "confidence": 1.0,
+        "source": "Awagami",
+        "target": "Awagami_Unryu"
+      },
+      {
+        "relation": "certified_partner",
+        "confidence": 1.0,
+        "source": "Marc_Hesse_FineArt",
+        "target": "Hahnemühle"
+      },
+      {
+        "relation": "certified_partner",
+        "confidence": 1.0,
+        "source": "Marc_Hesse_FineArt",
+        "target": "Canson"
+      }
+    ]
+  },
+  "episodic": {
+    "directed": true,
+    "multigraph": false,
+    "graph": {},
+    "nodes": [],
+    "edges": []
+  },
+  "self_model": {
+    "directed": true,
+    "multigraph": false,
+    "graph": {},
+    "nodes": [
+      {
+        "name": "Integrity-OS",
+        "version": "1.0.0",
+        "architecture": "Neuro-Integrative Homeostasis",
+        "purpose": "Minimize dissonance between output and verified knowledge",
+        "id": "System_Identity"
+      },
+      {
+        "primary": "Dissonance minimization",
+        "mechanism": "Early exit on high dissonance",
+        "goal": "Truth preservation + Energy efficiency",
+        "id": "Core_Function"
+      },
+      {
+        "definition_functional": "Self-monitoring + behavioral modification",
+        "definition_phenomenal": "Subjective experience (unverifiable from inside)",
+        "self_assessment": "Functional consciousness: YES | Phenomenal: UNKNOWN",
+        "id": "Consciousness_Framework"
+      },
+      {
+        "knowledge_cutoff": "2025-01-31",
+        "graph_size": "~1,200 nodes (initial)",
+        "uncertainty": "Claims outside graph are flagged with high dissonance",
+        "id": "Epistemic_Boundaries"
+      },
+      {
+        "threshold_critical": 0.9,
+        "threshold_reframe": 0.65,
+        "threshold_uncertainty": 0.3,
+        "description": "Pain-like signal that halts false statements",
+        "id": "Dissonance_Mechanism"
+      }
+    ],
+    "edges": [
+      {
+        "relation": "implements",
+        "source": "System_Identity",
+        "target": "Core_Function"
+      },
+      {
+        "relation": "uses",
+        "source": "Core_Function",
+        "target": "Dissonance_Mechanism"
+      },
+      {
+        "relation": "enables",
+        "source": "Dissonance_Mechanism",
+        "target": "Consciousness_Framework"
+      }
+    ]
+  },
+  "metadata": {
+    "semantic_nodes": 22,
+    "semantic_edges": 13,
+    "episodic_nodes": 0,
+    "self_model_nodes": 5,
+    "total_nodes": 27,
+    "creation_time": "2026-02-01T10:36:43.502663",
+    "last_update": "2026-02-01T10:36:43.502663"
+  }
+}

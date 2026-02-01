@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+type: software
+title: "Integrity-OS: Preventing AI Hallucinations Through Dissonance-Based Inhibition"
+authors:
+  - family-names: Hesse
+    given-names: Marc
+    email: info@marchesse.de
+    city: Potsdam
+    country: DE
+repository-code: "https://github.com/marchesse/integrity-os"
+url: "https://github.com/marchesse/integrity-os"
+abstract: >
+  Integrity-OS is a novel architecture for preventing hallucinations in Large 
+  Language Models through real-time dissonance detection and prefrontal inhibition. 
+  Inspired by neuroscience (anterior cingulate cortex and prefrontal cortex mechanisms), 
+  the system achieves 0.5% hallucination rate (99.1% reduction from 33.7% baseline) 
+  across 1000 multi-domain tests.
+keywords:
+  - artificial intelligence
+  - AI safety
+  - hallucination prevention
+  - dissonance detection
+  - biomimetic AI
+  - knowledge graphs
+  - machine learning
+license: MIT
+version: 1.0.0
+date-released: "2026-02-01"
+doi: 10.5281/zenodo.18450340
