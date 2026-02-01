@@ -188,8 +188,8 @@ print(f"Improvement: {results['relative_reduction']}%")
 
 **Title:** Integrity-OS: Preventing AI Hallucinations Through Dissonance-Based Inhibition  
 **Subtitle:** 1000-Test Multi-Domain Validation  
-**Author:** Marc Hesse (Marc Hesse FineArt, Potsdam, Germany)  
-**Status:** Submitted to arXiv (cs.LG)  
+**Author:** Marc Hesse (Potsdam, Germany)  
+**Status:** Published on Zenodo  
 **Paper:** [`paper/integrity_os_arxiv_1000tests.tex`](paper/integrity_os_arxiv_1000tests.tex)
 
 **Abstract:** 99.1% hallucination reduction across 1000 tests via biomimetic dissonance-based inhibition. See paper for full details.
@@ -227,7 +227,8 @@ We welcome contributions! Areas of interest:
 @article{hesse2026integrity,
   title={Integrity-OS: Preventing AI Hallucinations Through Dissonance-Based Inhibition},
   author={Hesse, Marc},
-  journal={arXiv preprint arXiv:PENDING},
+  doi={10.5281/zenodo.18450340},
+  url={https://doi.org/10.5281/zenodo.18450340},
   year={2026}
 }
 ```
@@ -237,7 +238,6 @@ We welcome contributions! Areas of interest:
 ## 📧 **Contact**
 
 **Marc Hesse**  
-Marc Hesse FineArt  
 Potsdam, Germany  
 Email: info@marchesse.de
 
